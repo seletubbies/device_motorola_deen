@@ -20,8 +20,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common aicp stuff
-$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
-$(call inherit-product, vendor/aicp/config/aosp_audio.mk)
+$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
+$(call inherit-product, vendor/pixys/config/aosp_audio.mk)
 
 # Inherit from device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -54,7 +54,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := deen
 PRODUCT_MANUFACTURER := motorola
-PRODUCT_NAME := aicp_deen
+PRODUCT_NAME := pixys_deen
 PRODUCT_MODEL := motorola one
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
@@ -69,4 +69,4 @@ PRODUCT_OVERRIDE_FINGERPRINT := google/walleye/walleye:8.1.0/OPM1.171019.011/444
 
 # AICP Device Maintainers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    DEVICE_MAINTAINERS="Jeferson Oliveira (jro1979oliver)"
+    DEVICE_MAINTAINERS="GiovanYCringe"
