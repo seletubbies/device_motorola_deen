@@ -19,4 +19,5 @@ Camera  | 13 MP, 2160 pixels, panorama,depth sensor, PDAF ,flash LED
 
 Copyright 2021 - The LineageOS Project.
 
-![Motorola One](https://cdn2.gsmarena.com/vv/pics/motorola/motorola-one-02.jpg "Motorola One")
+
+![uniir-aluguel-de-celular-aluguel-de-tablet-aluguel-de-equipamentos-moto-one-2](https://user-images.githubusercontent.com/86035674/163687112-3c96d5ae-1031-426d-8933-ec615bc7a333.png)
