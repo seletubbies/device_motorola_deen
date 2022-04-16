@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixys_deen.mk
+    $(LOCAL_DIR)/arrow_deen.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixys_deen-user \
-    pixys_deen-userdebug \
-    pixys_deen-eng
+    arrow_deen-user \
+    arrow_deen-userdebug \
+    arrow_deen-eng
