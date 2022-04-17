@@ -21,7 +21,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common aicp stuff
 $(call inherit-product, vendor/arrow/config/common.mk)
-$(call inherit-product, vendor/arrow/config/aosp_audio.mk)
 
 # Inherit from device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
